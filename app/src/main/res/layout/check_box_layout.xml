@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <CheckBox
+            android:id="@+id/box1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="红色"
+            />
+        <CheckBox
+            android:id="@+id/box2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="蓝色" />
+        <CheckBox
+            android:id="@+id/box3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="绿色" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        app:layout_constraintTop_toBottomOf="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/box4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="深红色"
+
+             />
+        <CheckBox
+            android:id="@+id/box5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="深蓝色" />
+        <CheckBox
+            android:id="@+id/box6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="深绿色" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:id="@+id/ll2"
+        app:layout_constraintTop_toBottomOf="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/box7"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@drawable/check_img"
+            android:layout_height="wrap_content"
+            android:text="白色"/>
+        <CheckBox
+            android:id="@+id/box8"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@drawable/check_img"
+            android:layout_height="wrap_content"
+            android:text="紫色" />
+        <CheckBox
+            android:id="@+id/box9"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@drawable/check_img"
+            android:layout_height="wrap_content"
+            android:text="黑色" />
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

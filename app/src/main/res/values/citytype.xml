@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="citytype" >
+        <item>淮阳</item>
+        <item>太康</item>
+        <item>鹿邑</item>
+        <item>郸城</item>
+    </string-array>
+
+    <string-array name="ball" >
+        <item>足球</item>
+        <item>篮球</item>
+        <item>乒乓球</item>
+        <item>羽毛球</item>
+    </string-array>
+
+</resources>
